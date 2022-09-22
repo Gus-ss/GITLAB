@@ -23,12 +23,6 @@ void main()
 
           found_index = i;
 
-      if (found_index == -1)
-        printf("Sorry, Student ID %5d not found.\n", SearchID);
-      else 
-        printf("ID: %5d. Name: %-25s. GPA: %5.2f.\n", 
-           ID[found_index], Name[found_index],  GPA[found_index]);
-
       printf("Enter Student ID to Search (0 to End): ");
 
       scanf("%d", &SearchID);
