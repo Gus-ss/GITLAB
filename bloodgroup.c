@@ -16,7 +16,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
-        printf("Blood group %s is incorrect! Please try again. OK\n", G);
+        printf("Blood group %s is incorrect! Please try again.\n Yes", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
